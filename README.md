@@ -17,6 +17,7 @@ Built with **Streamlit**, **OpenAI**, and **Firestore**, it delivers a friendly,
 8. [Configuration](#-configuration)
 9. [Contributing](#-contributing)
 10. [License](#-license)
+11. [Screenshots](#-screenshots)
 
 ---
 
@@ -237,5 +238,69 @@ Please ensure all tests pass before submitting.
 ## 📜 License
 
 Licensed under the **MIT License**. See [LICENSE](LICENSE) for details.
+
+---
+
+## 📜 Screenshots
+
+ENGLISH
+
+<img width="1717" height="848" alt="1 Imara Chat Bot EN" src="https://github.com/user-attachments/assets/f506a392-1bd7-4f79-9c2e-6f669ebcf14b" />
+
+<img width="1717" height="844" alt="2 Imara Chat Bot EN" src="https://github.com/user-attachments/assets/36fa9f76-e023-4094-9b1d-4fab20b738b7" />
+
+<img width="1717" height="844" alt="3 Imara Chat Bot EN" src="https://github.com/user-attachments/assets/1621d475-7994-4c47-ae77-18716b9cfb94" />
+
+<img width="1717" height="844" alt="4 Imara Chat Bot EN" src="https://github.com/user-attachments/assets/e03b66d8-8b8d-4d92-89fa-862a366c1e1b" />
+
+<img width="1717" height="844" alt="5 Imara Chat Bot EN" src="https://github.com/user-attachments/assets/03f3a17e-a3a0-472f-b2f6-50857da12917" />
+
+<img width="1717" height="844" alt="6 Imara Chat Bot EN" src="https://github.com/user-attachments/assets/ae227b33-7388-42dc-b77d-81a7b8a1d553" />
+
+<img width="1717" height="844" alt="7 Imara Chat Bot EN" src="https://github.com/user-attachments/assets/4a05de84-ad9d-4b2c-9310-18b06f63ef69" />
+
+<img width="1717" height="844" alt="8 Imara Chat Bot EN" src="https://github.com/user-attachments/assets/78c12a85-8921-4796-b86e-66d0a2aabf17" />
+
+<img width="1717" height="844" alt="9 Imara Chat Bot EN" src="https://github.com/user-attachments/assets/004fa841-eb2c-43f6-b7d7-fc125fd0b7d4" />
+
+<img width="1717" height="844" alt="10 Imara Chat Bot EN" src="https://github.com/user-attachments/assets/2e34b654-4f6a-4c7a-90b2-294130501dff" />
+
+<img width="1717" height="844" alt="11 Imara Chat Bot EN" src="https://github.com/user-attachments/assets/d368bf0f-9ce6-4451-be06-2b8d11af9e48" />
+
+<img width="1717" height="844" alt="12 Imara Chat Bot EN" src="https://github.com/user-attachments/assets/b5c2c2c9-90e2-4854-90aa-a063c6502952" />
+
+<img width="1717" height="844" alt="13 Imara Chat Bot EN" src="https://github.com/user-attachments/assets/ebbf3d52-9343-44d8-b8ac-d8d38be5353f" />
+
+<img width="1717" height="844" alt="14 Imara Chat Bot EN" src="https://github.com/user-attachments/assets/8bdf983a-32d6-4777-be61-cfe946acfd8e" />
+
+<img width="1717" height="844" alt="15 Imara Chat Bot EN" src="https://github.com/user-attachments/assets/5314be3b-7b03-4a97-9b6b-3b3e9b4dc93c" />
+
+---
+
+FRENCH
+
+---
+
+SPANISH
+
+---
+
+PORTUGUESE
+
+---
+
+GERMAN
+
+---
+
+ITALIAN
+
+---
+
+DUTCH
+
+---
+
+ARABIC
 
 ---
