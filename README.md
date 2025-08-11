@@ -37,21 +37,33 @@ Built with **Streamlit**, **OpenAI**, and **Firestore**, it delivers a friendly,
 
 ```
 imara_chat_bot/
-├── streamlit/secrets.toml         # Streamlit secrets (e.g., OPENAI_API_KEY)
-├── config.yaml                    # Configuration file
-├── Dockerfile                     # Docker setup
-├── requirements.txt               # Dependencies
-├── .gitignore
-├── secrets/                        # Sensitive credentials (excluded from Git)
-│   └── serviceAccountKey.json
-├── data/                           # Data storage (e.g., chat history)
-├── models/                         # Model storage
-├── src/                            # Core chatbot logic
-├── ui/                             # Streamlit UI
-│   └── streamlit_chatbot.py
-├── tests/                          # Unit & integration tests
-├── .github/workflows/ci.yml        # CI/CD workflow
-└── README.md
+├── streamlit/secrets.toml    # Streamlit secrets (e.g., OPENAI_API_KEY)
+├── config.yaml               # Configuration file
+├── Dockerfile                # Docker configuration
+├── requirements.txt          # Python dependencies
+├── .gitignore                # Ignores secrets, data, models, etc.
+├── secrets/                  # Sensitive files
+│   └── serviceAccountKey.json # Firestore credentials
+├── data/                     # Data storage
+│   └── chat_history.csv      # Chatbot conversation history
+├── models/                   # Model storage (unused for now)
+├── src/                      # Source code
+│   ├── __init__.py
+│   ├── config.py             # Config loader (renamed from data_loader)
+│   ├── faq_loader.py         # Load FAQs from Firestore
+│   ├── rag.py                # RAG setup with LangChain and FAISS
+│   └── llm_pipeline.py       # FastAPI backend for generation and feedback
+├── ui/                       # Streamlit UI
+│   └── streamlit_chatbot.py  # Chatbot UI
+├── tests/                    # Tests
+│   ├── __init__.py
+│   ├── test_config.py        # Test config loading
+│   ├── test_llm_pipeline.py  # Test FastAPI endpoints
+│   └── test_chatbot.py       # Test chatbot functionality
+├── .github/                  # CI/CD
+│   └── workflows/
+│       └── ci.yml            # GitHub Actions
+└── README.md                 # Documentation
 ```
 
 ---
