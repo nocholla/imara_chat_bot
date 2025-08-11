@@ -1,2 +1,2 @@
-# imara_chat_bot
-💬 Imara Chat Bot
+# 💬 Imara Chat Bot
+Imara Chat Bot
