@@ -10,9 +10,7 @@ def test_chatbot_initialization():
 
 def test_chat_history_saving():
     at = AppTest.from_file("ui/streamlit_chatbot.py")
-    at.session_state.profile["firstName"] = "Amani"
-    at.session_state.profile["language"] = "en"
-    at.session_state.profile["aboutMe"] = "I love soccer"
+    at.session_state.profile = {"firstName": "Amani", "language": "en", "aboutMe": "I love soccer", "current_state": "Initial"}
     at.session_state.setup_complete = True
     at.session_state.messages = [{"role": "user", "content": "How do I edit my profile?"}, {"role": "assistant", "content": "It’s easy! 😊"}]
     at.run()
