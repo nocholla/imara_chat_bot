@@ -8,14 +8,15 @@ Built with **Streamlit**, **OpenAI**, and **Firestore**, it delivers a friendly,
 ## 📚 Table of Contents
 
 1. [Features](#-features)
-2. [Project Structure](#-project-structure)
-3. [Installation](#-installation)
-4. [Usage](#-usage)
-5. [Testing](#-testing)
-6. [CI/CD](#-cicd)
-7. [Configuration](#-configuration)
-8. [Contributing](#-contributing)
-9. [License](#-license)
+2. [Tech Stack](#-tech-stack)
+3. [Project Structure](#-project-structure)
+4. [Installation](#-installation)
+5. [Usage](#-usage)
+6. [Testing](#-testing)
+7. [CI/CD](#-cicd)
+8. [Configuration](#-configuration)
+9. [Contributing](#-contributing)
+10. [License](#-license)
 
 ---
 
@@ -30,6 +31,44 @@ Built with **Streamlit**, **OpenAI**, and **Firestore**, it delivers a friendly,
 * **Streamlit UI** – Clean and interactive interface.
 * **OpenAI Integration** – Uses GPT-4o for dynamic responses.
 * **Docker Support** – Easy deployment via Docker.
+
+---
+
+## 🖥 Tech Stack
+
+**Frameworks & Libraries**
+
+* [Streamlit](https://streamlit.io/) – Frontend UI for chatbot interaction
+* [FastAPI](https://fastapi.tiangolo.com/) – Backend API for chatbot and feedback handling
+* [LangChain](https://www.langchain.com/) – Retrieval-Augmented Generation (RAG) pipeline
+* [FAISS](https://faiss.ai/) – Vector similarity search
+* [PyYAML](https://pyyaml.org/) – Configuration file parsing
+* [Pytest](https://pytest.org/) – Unit & integration testing
+
+**AI & NLP**
+
+* [OpenAI GPT-4o](https://openai.com/) – Natural language understanding & generation
+* [OpenAI Embeddings](https://platform.openai.com/docs/guides/embeddings) – Semantic search
+* [Transformers](https://huggingface.co/transformers/) – Model utilities
+* [Datasets](https://huggingface.co/docs/datasets) – Data handling for model development
+
+**Database & Cloud**
+
+* [Firebase Firestore](https://firebase.google.com/docs/firestore) – FAQ and data storage
+* [Firebase Admin SDK](https://firebase.google.com/docs/admin/setup) – Admin access to Firestore
+
+**Data Processing**
+
+* Pandas – Data storage and analysis
+* NumPy – Numerical computations
+* SciPy – Scientific computing
+* Scikit-learn – Machine learning utilities
+* Joblib – Model persistence
+
+**Deployment**
+
+* Docker – Containerized deployment
+* GitHub Actions – CI/CD pipeline
 
 ---
 
