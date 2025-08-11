@@ -304,7 +304,7 @@ def save_chat_history():
 # Setup phase for collecting user profile
 if not st.session_state.setup_complete:
     st.set_page_config(page_title="Africa Love Match FAQ Chatbot", page_icon="💖")
-    st.title("IMARA: Africa Love Match FAQ Chatbot")
+    st.title("💬 Imara Chat Bot")
 
     st.subheader("Profile Information")
     st.session_state.profile["firstName"] = st.text_input(
