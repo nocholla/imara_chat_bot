@@ -1,3 +1,2 @@
-openai_api_key: "your-openai-api-key"
 data_dir: "data"
 firestore_credentials: "/path/to/secrets/serviceAccountKey.json"
