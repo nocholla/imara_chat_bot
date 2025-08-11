@@ -1,1 +1,31 @@
-.streamlit/secrets.toml
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Streamlit
+.streamlit/
+
+# Data and models
+data/*
+!data/.gitkeep
+models/*
+secrets/*
+faiss_index/
+
+# Logs
+*.log
+
+# Docker
+.dockerignore
+
+# Misc
+.DS_Store
+*.swp
