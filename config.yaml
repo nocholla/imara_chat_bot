@@ -1,2 +1,4 @@
 data_dir: "data"
-firestore_credentials: "/path/to/secrets/serviceAccountKey.json"
+firestore_credentials: "secrets/serviceAccountKey.json"
+openai_embedding_model: "text-embedding-3-small"
+backend_url: "http://localhost:8000"
